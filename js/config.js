@@ -21,7 +21,7 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
- heimuer: {
+    heimuer: {
         api: 'https://json.heimuer.xyz',
         name: '黑木耳',
         detail: 'https://heimuer.tv',
@@ -128,7 +128,7 @@ const API_SITES = {
     wujin: {
         api: 'https://api.wujinapi.me',
         name: '无尽资源'
-    }
+    },
 };
 
 // 添加聚合搜索的配置选项
@@ -209,4 +209,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = faulse;
+const HIDE_BUILTIN_ADULT_APIS = true;
